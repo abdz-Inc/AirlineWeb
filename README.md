@@ -11,13 +11,13 @@ These packages work together to give a full-stack experience to the user<br>
 The whole system consist of five classes that have their own individual functionality.<br>
 All classes are encapsulated to prevent data corruption and ensure integrity.<br>
 The five elementary classes are:-
-<li>
-<ul>User</ul>
-<ul>Admin</ul>
-<ul>Flight</ul>
-<ul>Trip</ul>
-<ul>BookTicket</ul>
-</li>
+<ul>
+<li>User</li>
+<li>Admin</li>
+<li>Flight</li>
+<li>Trip</li>
+<li>BookTicket</li>
+</ul>
 
 #User
 
@@ -31,11 +31,11 @@ user.
 The Admin class represents the administrator who has the ability to modify the system, like adding flights, creating<br>
 new trips etc., A new admin can only be created by an existing admin. Every admin has an unique id and login is based on email<br>
 and password. Admininfo table is used to store the information of admin. Important admin unctionalities include:
-<li>
-  <ul>addFlight</ul>
-  <ul>addTrip</ul>
-  <ul>addAdmin</ul>
- </li>
+<ul>
+  <li>addFlight</li>
+  <li>addTrip</li>
+  <li>addAdmin</li>
+ </ul>
  
 #Flight
 

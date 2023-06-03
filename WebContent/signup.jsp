@@ -3,6 +3,10 @@
 <head>
   <title>Sign Up</title>
   <style>
+  body {
+      background: linear-gradient(to right, #4e54c8, #8f94fb);
+      font-family: Arial, sans-serif;
+    }
     body {
       font-family: Arial, sans-serif;
       margin: 0;

@@ -7,6 +7,10 @@
     body {
       font-family: Arial, sans-serif;
     }
+    body {
+      background: linear-gradient(to right, #4e54c8, #002D62);
+      font-family: Arial, sans-serif;
+    }
 
     .container {
       margin: 20px auto;
@@ -49,6 +53,7 @@
     <form method="get" action="Logout"></form>
       <input type = "submit" value="Logout">
       </form>
+      
       <a href="mainpage.jsp">Search</a>
     </div>
   </div>

@@ -6,14 +6,14 @@
   <title>Login Page</title>
   <style>
     body {
-      background: linear-gradient(to right, #4e54c8, #8f94fb);
+      background: linear-gradient(to right, #4e54c8, #002D62);
       font-family: Arial, sans-serif;
     }
     
     .container {
       width: 300px;
       margin: 0 auto;
-      margin-top: 150px;
+      margin-top: 100px;
       background-color: #fff;
       border-radius: 5px;
       padding: 20px;
@@ -62,6 +62,11 @@
   </style>
 </head>
 <body>
+<center>
+	<h1 style="color:white;">
+		Airline Ticket Reservation System
+	</h1>
+</center>
   <div class="container">
 	
     <h2>Login</h2>

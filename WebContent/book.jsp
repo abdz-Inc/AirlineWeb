@@ -3,6 +3,10 @@
 <head>
   <title>Seat Booking</title>
   <style>
+  body {
+      background: linear-gradient(to right, #4e54c8, #002D62);
+      font-family: Arial, sans-serif;
+    }
     body {
       font-family: Arial, sans-serif;
     }

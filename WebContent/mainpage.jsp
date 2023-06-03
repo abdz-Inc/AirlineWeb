@@ -9,6 +9,10 @@
   
   <title>Airplane Reservation</title>
   <style>
+  body {
+      background: linear-gradient(to right, #4e54c8, #002D62);
+      font-family: Arial, sans-serif;
+    }
     body {
       font-family: Arial, sans-serif;
     }
@@ -23,7 +27,7 @@
       text-align: left;
     }
     .container {
-      width: 400px;
+      width: 600px;
       margin: 0 auto;
       margin-top: 50px;
       background-color: #f2f2f2;
@@ -98,7 +102,7 @@
         <input type="text" id="destination" name="destination" >
       </div>
       <div class="form-group">
-        <label for="date">Date(YYYY-MM-DD):</label>
+        <label for="date">Date(YYYY-MM-DD): *required </label>
         <input type="date" id="date" name="date" pattern="(2[0-9][0-9][0-9])-(0[1-9]|1[1-2])-(0[1-9]|1[0-9]|2[0-9]|3[0-1])" required>
       </div>
       <div class="form-group">
@@ -107,9 +111,13 @@
       </div>
       <button type="submit" class="btn-search">Search</button>
     </form>
+    <br>
+    <br>
     <form method="get" action="BookingHistoryServlet">
       <button type="submit" class = "btn-search">View Bookings</button>
     </form>
+    <br>
+    <br>
     <% if ( request.getAttribute("nullTripid") != null  && ((boolean) request.getAttribute("nullTripid")) == true) { %>
     	<h5 style="COLOR:RED;"> Trip details invalid </h5>
 	<% } %>
@@ -127,7 +135,7 @@
 		        <th>Date</th>
 		        <th>Time</th>
 		        <th>Cost</th>
-		        <th>BookTiket</th>
+		        <th>BookTicket</th>
 		      </tr>
 		    </thead>
 		    <tbody>

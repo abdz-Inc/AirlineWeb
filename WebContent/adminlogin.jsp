@@ -13,7 +13,7 @@
     .container {
       width: 300px;
       margin: 0 auto;
-      margin-top: 150px;
+      margin-top: 100px;
       background-color: #fff;
       border-radius: 5px;
       padding: 20px;
@@ -62,6 +62,11 @@
   </style>
 </head>
 <body>
+<center>
+	<h1 style="color:white;">
+		Airline Ticket Reservation System
+	</h1>
+</center>
   <div class="container">
 	
     <h2>Admin Login</h2>
@@ -80,7 +85,7 @@
       <button type="submit" class="btn">Login</button>
     </form>
     <div class="link">
-      <a href="login.jsp">User Login</a>
+      <a href="index.jsp">User Login</a>
     </div>
   </div>
 </body>

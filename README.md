@@ -61,6 +61,9 @@ their booking history.
 Html, css are used to create a basic frontend. A dynamic web project is initialize in the eclipse platform to<br>
 handle the java web configurations
 
+![image](https://github.com/abdz-Inc/AirlineWeb/assets/69815749/466d834a-0579-4346-8b37-b51af5eeb1df)
+
+
 #Servlets
 
 Servlets are used to connect the user input with the class functionalities. The classes handle database connectivity<br>

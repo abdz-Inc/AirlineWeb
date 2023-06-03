@@ -10,9 +10,10 @@ public class Main {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn = DriverManager.getConnection(
-					${{secrets.HOST_NAME}}//"jdbc:mysql://aws.connect.psdb.cloud/airlinedb?sslMode=PREFERRED",
-					,${{secrets.USERNAME}}//"fdaazqpp28s8qefghivi",
-			  ,${{secrets.PASSWORD}});//"pscale_pw_aRUPpeQTdNeQWahYFcbFAwTDcmEMUpZ5ZM1fVEMPLq");
+					${{secrets.HOST_NAME}}
+					,${{secrets.USERNAME}}
+			  ,${{secrets.PASSWORD}});
+			//host username and password can be found in secrets
 
 			
 		}catch(Exception e)

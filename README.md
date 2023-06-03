@@ -56,13 +56,13 @@ The BookTicket class represents the booking of a Trip, by a User and the amount.
 Booking can be done by a User object using the bookTicket functionality. The BookTicket class also gives user the functionality to retrieve<br>
 their booking history.
 
+![image](https://github.com/abdz-Inc/AirlineWeb/assets/69815749/466d834a-0579-4346-8b37-b51af5eeb1df)
+
+
 #Front-End
 
 Html, css are used to create a basic frontend. A dynamic web project is initialize in the eclipse platform to<br>
 handle the java web configurations
-
-![image](https://github.com/abdz-Inc/AirlineWeb/assets/69815749/466d834a-0579-4346-8b37-b51af5eeb1df)
-
 
 #Servlets
 

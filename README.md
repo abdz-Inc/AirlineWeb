@@ -56,3 +56,56 @@ The BookTicket class represents the booking of a Trip, by a User and the amount.
 Booking can be done by a User object using the bookTicket functionality. The BookTicket class also gives user the functionality to retrieve<br>
 their booking history.
 
+#Front-End
+
+Html, css are used to create a basic frontend. A dynamic web project is initialize in the eclipse platform to<br>
+handle the java web configurations
+
+#Servlets
+
+Servlets are used to connect the user input with the class functionalities. The classes handle database connectivity<br>
+and manipulation while the servlet make use of the classes to process user input. The various servlet classes<br>
+form a bridge between the userinterface and data.
+
+#Login and Signup Servlets
+
+<ul>
+  <li>LoginServlet</li>
+  <li>SignupServlet</li>
+  <li>AdminLoginServlet</li>
+  <li>AdminSignupServlet</li>
+  <li>Logout</li>
+  </ul>
+   These servlets are used to implement the user and admin, creation and verification functionality. They maintain a session where the user or admin objecta,br>
+   is stored and used for authoriztion purposes. The logout servlet class flushes the session variables and redirects to login page.
+   
+#Search Servlet
+
+The Search servlet gets the constarints from the user and invokes the getTrip functionality of Trip class to get a list of Trips which fall<br>
+under the given constraint. This list is further sent to the page where it gets displayed.
+
+#Book Servlet
+
+The Book Servlet provides the information of the trip that the user has choosen to book and requests for no of seats the user wants to book<br>
+It retrieves the trip information from the list of trips previously invoked.
+
+#ConfirmBooking
+
+Once the user enters the no of ticket the ConfirmBooking servlet is invoked whoich creates a booking object using the given information<br>
+Also it updates the book table with information of user id, trip id, amount etc., In order to create a booking a user object is neccessary which<br>
+is created only if logged in or signed up before reaching this page.
+
+#BookingHistoryServlet
+
+This servlet is used to retrieve all the bookings done by a aprticular user. Thus this server requires an user class and can show the booking history<br>
+of that particular user to himself. It queries the book table in database to retrieve all booking done by a particular user.
+
+#FlightServlet
+
+Flight Servlet class perfor,s the functionality of creating a new flight object and updating the flight table in database<br>.
+This functionality can only be done if an admin object is found, thus making an admin login must.
+
+#TripServlet
+
+Trip servlet is also used only by an admin to create a trip, where the required attributes are taken as input from <br>
+the admin and the trip table is updated in the database. Only admin can perform this functionality as it checks for an admin object in session.

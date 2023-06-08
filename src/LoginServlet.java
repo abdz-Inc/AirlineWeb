@@ -29,7 +29,7 @@ public class LoginServlet extends HttpServlet {
 		
 		if(currentuser == null) {
 			request.setAttribute("isNotValid", true);
-			RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
 		    dispatcher.forward(request, response);
 		}
 		else {

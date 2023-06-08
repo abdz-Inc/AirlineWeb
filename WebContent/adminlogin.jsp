@@ -80,7 +80,7 @@
       <button type="submit" class="btn">Login</button>
     </form>
     <div class="link">
-      <a href="login.jsp">User Login</a>
+      <a href="index.jsp">User Login</a>
     </div>
   </div>
 </body>
